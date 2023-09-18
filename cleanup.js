@@ -1,19 +1,24 @@
-import { readdirSync, statSync, unlinkSync, rmSync } from "fs";
+import {
+  readdirSync,
+  statSync,
+  unlinkSync,
+  rmSync
+} from "fs";
 
 try {
-    [
-        "./application/commands/cache/",
-        "./src/core/data/cache/",
-    ]
-        .forEach(path => {
-            const files = readdirSync(path);
-            files.forEach(file => {
-                const filePath = `${path}${file}`;
-                if (statSync(filePath).isFile() && file != "README.txt") {
-                    unlinkSync(filePath);
-                }
-            });
-        });
+  [
+    "./Scripts/commands/cache/",
+    "./System/Core/data/cache/",
+  ]
+  .forEach(path => {
+    const files = readdirSync(path);
+    files.forEach(file => {
+      const filePath = `${path}${file}`;
+      if (statSync(filePath).isFile() && file != "README.txt") {
+        unlinkSync(filePath);
+      }
+    });
+  });
 } catch (e) {
-    console.error(e);
+  console.error(e);
 }

@@ -68,6 +68,6 @@ npm run start
 
 # LỜI KẾT
 
-Đây là dự án mình chỉnh sửa lại từ mã nguồn ___Xaviabot___ mình đã xóa hết các file lệnh cũ của ___Xaviabot___ các bạn có thể cắm những file khác của Xavia vào chạy bình thường nhé :)
+
 
 __Thank to XaviaTeam__
