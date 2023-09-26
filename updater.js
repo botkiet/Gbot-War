@@ -8,7 +8,7 @@ import {
   statSync,
   rmSync
 } from 'fs';
-import logger from './src/core/helpers/console.js';
+import logger from './System/Core/helpers/console.js';
 import {
   resolve,
   dirname
