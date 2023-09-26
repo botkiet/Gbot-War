@@ -26,5 +26,5 @@
     "timezone": "Asia/Ho_Chi_Minh",
     "REFRESH": "43200000",
     "notiWelecome": "Gbot 2.0 xin chào quý zị",
-    "WEBVIEW": true
+    "WEBVIEW": false
 }
