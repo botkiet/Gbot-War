@@ -16,14 +16,15 @@
     "LANGUAGE": "vi_VN",
     "LOG_LEVEL": 1,
     "MODERATORS": [
-        "100023986450526"
+        "xxx"
     ],
     "ABSOLUTES": [
-        "100023986450526"
+        "xxx"
     ],
-    "NAME": "GBOT - CHIẾN THẦN SÀN WAR 4.0",
+    "NAME": "GBOT WAR- CHIẾN THẦN SÀN WAR 4.0",
     "PREFIX": "/",
     "timezone": "Asia/Ho_Chi_Minh",
     "REFRESH": "43200000",
-    "notiWelecome": "Gbot 2.0 xin chào quý zị"
+    "notiWelecome": "Gbot 2.0 xin chào quý zị",
+    "WEBVIEW": true
 }
